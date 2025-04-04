@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F45656D2-E668-63AA-039A-2741EF6CC442" name="IMC">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-04-03 23:11:54 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="DFA046AE-D0E1-8BF1-F26C-E5856FFBC0E7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>IMC</shortName>
+<synonym>IMC</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="alturaCliente" id="183C020B-B3BB-B7A3-D8FB-C5184075D47E">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-04-03 23:12:39 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="DFA046AE-D0E1-8BF1-F26C-E5856FFBC0E7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pesoCliente" id="9A660395-6E74-F8CF-E386-3919D96B6EA5">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-04-03 23:12:46 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="DFA046AE-D0E1-8BF1-F26C-E5856FFBC0E7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="imcAtual" id="8E9689B6-E15A-8885-DCDF-795B20769BCB">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-04-03 23:13:56 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="DFA046AE-D0E1-8BF1-F26C-E5856FFBC0E7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="imcAtingido" id="88816D5E-3E81-92D4-98FA-A31F25E348F9">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-04-03 23:14:28 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="DFA046AE-D0E1-8BF1-F26C-E5856FFBC0E7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="2876122B-2306-29FB-1BB8-A62066CB61B0">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-04-04 00:25:32 UTC</createdTime>
+<generatorID>68F26D86-340F-EE81-15EB-153A81CCC89E</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="DFA046AE-D0E1-8BF1-F26C-E5856FFBC0E7" value="true"/>
+</engineerTo>
+<referedAttribute>3E0A1BA8-C993-4193-18CC-8F30925FAC19</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

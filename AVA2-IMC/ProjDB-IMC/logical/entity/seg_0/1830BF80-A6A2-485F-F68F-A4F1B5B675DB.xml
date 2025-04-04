@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1830BF80-A6A2-485F-F68F-A4F1B5B675DB" name="Consulta">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-04-03 23:38:21 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="DFA046AE-D0E1-8BF1-F26C-E5856FFBC0E7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Consulta</shortName>
+<synonym>Consulta</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dataConsulta" id="975DB2D0-7562-6A5E-7F54-91033B91D94A">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-04-03 23:38:39 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="DFA046AE-D0E1-8BF1-F26C-E5856FFBC0E7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomePaciente" id="200DCFA0-25C0-57B5-3D59-FE1278601213">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-04-03 23:41:05 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="DFA046AE-D0E1-8BF1-F26C-E5856FFBC0E7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pesoRegistrado" id="8E98630D-2072-93FA-5E64-E6E7E0CAC71F">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-04-03 23:42:12 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="DFA046AE-D0E1-8BF1-F26C-E5856FFBC0E7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="diagnostico" id="8B857901-87B1-0962-E802-CBE7C97535C5">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-04-03 23:42:35 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="DFA046AE-D0E1-8BF1-F26C-E5856FFBC0E7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="observacoes" id="E22FECDB-A4B5-D245-818B-ADD874A689E0">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-04-03 23:42:45 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="DFA046AE-D0E1-8BF1-F26C-E5856FFBC0E7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeProfissional" id="B9E0A429-2F8F-6F36-6900-4BC178500B12">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-04-03 23:43:30 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="DFA046AE-D0E1-8BF1-F26C-E5856FFBC0E7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="especializacaoProfissional" id="D12BD086-E3CB-B968-72EF-4F85872DC3B9">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-04-03 23:43:52 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="DFA046AE-D0E1-8BF1-F26C-E5856FFBC0E7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

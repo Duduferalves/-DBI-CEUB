@@ -1,0 +1,161 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7360E1CF-8273-BCBB-9EAB-C3AF4FDEF1AA" name="Cliente">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-04-03 22:58:25 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="DFA046AE-D0E1-8BF1-F26C-E5856FFBC0E7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Cliente</shortName>
+<synonym>Cliente</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nome" id="FE72117C-AA0F-C2E6-386D-ADE2B5CCEF4D">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-04-03 22:58:51 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="DFA046AE-D0E1-8BF1-F26C-E5856FFBC0E7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="3E0A1BA8-C993-4193-18CC-8F30925FAC19">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-04-03 22:59:01 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="DFA046AE-D0E1-8BF1-F26C-E5856FFBC0E7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereço" id="1BD08CDB-A17F-2D5F-362B-E73D97D94A2D">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-04-03 22:59:06 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="DFA046AE-D0E1-8BF1-F26C-E5856FFBC0E7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataNascimento" id="48C4DFDB-4E18-639B-D941-DEEC5165E46D">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-04-03 22:59:14 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="DFA046AE-D0E1-8BF1-F26C-E5856FFBC0E7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sexo" id="EFC0A4BD-0F34-7C0F-FE1B-4002D9058A12">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-04-03 22:59:24 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="DFA046AE-D0E1-8BF1-F26C-E5856FFBC0E7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="CFCC0760-40E2-7B14-E7EE-CB9520A79E35">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-04-03 22:59:38 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="DFA046AE-D0E1-8BF1-F26C-E5856FFBC0E7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="82D87D45-2579-0FE4-EB11-D841AA7CEE22">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-04-03 23:02:09 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="DFA046AE-D0E1-8BF1-F26C-E5856FFBC0E7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="paciente" id="168298AF-4EA3-CAD2-ACB9-F47961540392">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-04-03 23:03:11 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="DFA046AE-D0E1-8BF1-F26C-E5856FFBC0E7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="exames" id="3E23B63D-FF85-B7E7-ADDD-A5F5A78BEE33">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-04-03 23:10:00 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="DFA046AE-D0E1-8BF1-F26C-E5856FFBC0E7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="refeicoesDia" id="0AE942D9-55B6-91D9-238B-B0D05D4F5CFD">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-04-03 23:18:04 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="DFA046AE-D0E1-8BF1-F26C-E5856FFBC0E7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="atividadesFisicas" id="5AA67880-D118-4C31-B9B6-E2636DEC5CC4">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-04-03 23:18:23 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="DFA046AE-D0E1-8BF1-F26C-E5856FFBC0E7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataCadastro" id="DF69FEE3-F563-E383-9645-2820E09CE85B">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-04-03 23:34:26 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="DFA046AE-D0E1-8BF1-F26C-E5856FFBC0E7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="929331FD-6050-DB43-0685-7D2D1BDC4E71" name="Cliente PK">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-04-04 00:25:31 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="DFA046AE-D0E1-8BF1-F26C-E5856FFBC0E7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3E0A1BA8-C993-4193-18CC-8F30925FAC19</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

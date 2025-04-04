@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A488EDB4-0491-136B-C716-A938E1993B29" name="Produtos">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-04-03 22:51:50 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="DFA046AE-D0E1-8BF1-F26C-E5856FFBC0E7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Produtos</shortName>
+<synonym>Produtos</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nome" id="F59B1455-4073-1AE2-4142-A68DBE2250CC">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-04-03 22:52:54 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="DFA046AE-D0E1-8BF1-F26C-E5856FFBC0E7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao" id="FB66B394-20A8-EBEF-58C2-7C40B03575E3">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-04-03 22:53:16 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="DFA046AE-D0E1-8BF1-F26C-E5856FFBC0E7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="preco" id="42FB7E9F-B098-7012-2FE5-64F1C3A92B8E">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-04-03 22:53:28 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="DFA046AE-D0E1-8BF1-F26C-E5856FFBC0E7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="validade" id="382A63F6-B456-2E47-E3E7-3A0E6E7D0202">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-04-03 22:53:50 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="DFA046AE-D0E1-8BF1-F26C-E5856FFBC0E7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipoProduto" id="281C0C2D-7C07-1B43-49FF-7B866699FA9D">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-04-03 22:54:47 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="DFA046AE-D0E1-8BF1-F26C-E5856FFBC0E7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estoque" id="64858126-A914-F8E3-9A6D-9FC73EA2A0E7">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-04-03 23:35:37 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="DFA046AE-D0E1-8BF1-F26C-E5856FFBC0E7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8DC26195-7352-92A7-6B49-F6AD2727F4D8" name="Vendedor">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-05-09 00:41:22 UTC</createdTime>
+<generatorID>F65AD6CF-64AC-E2C7-D7DE-24178B0ED4E2</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<abbreviation>Vendedor</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="matriculaVendedor" id="2E0095EF-BDC9-55FA-D70D-2F775EC2E1D4">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-05-09 00:41:22 UTC</createdTime>
+<generatorID>0F685E7C-40B7-47FA-9A16-CA310A8F9132</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomeVendedor" id="7BAC726C-011E-1153-E53F-07F02320BE7B">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-05-09 00:41:22 UTC</createdTime>
+<generatorID>7DCDF2B7-E828-2BE9-A01C-26F2992C5552</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="110FB327-9A6E-D693-7797-FEE9A8730C58" name="Vendedor_PK">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-05-09 00:41:22 UTC</createdTime>
+<generatorID>0767EC71-7E77-6007-A1DE-666B7E9452D7</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E0095EF-BDC9-55FA-D70D-2F775EC2E1D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

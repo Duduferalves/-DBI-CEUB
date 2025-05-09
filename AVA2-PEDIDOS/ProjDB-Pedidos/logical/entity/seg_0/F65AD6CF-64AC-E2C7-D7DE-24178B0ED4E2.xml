@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F65AD6CF-64AC-E2C7-D7DE-24178B0ED4E2" name="Vendedor">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-05-09 00:04:05 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="D253B553-0CD7-15EC-DA4F-DBF436E52B42" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Vendedor</shortName>
+<synonym>Vendedor</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="matriculaVendedor" id="0F685E7C-40B7-47FA-9A16-CA310A8F9132">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-05-09 00:05:18 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="D253B553-0CD7-15EC-DA4F-DBF436E52B42" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeVendedor" id="7DCDF2B7-E828-2BE9-A01C-26F2992C5552">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-05-09 00:07:12 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="D253B553-0CD7-15EC-DA4F-DBF436E52B42" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0767EC71-7E77-6007-A1DE-666B7E9452D7" name="Vendedor PK">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-05-09 00:05:30 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="D253B553-0CD7-15EC-DA4F-DBF436E52B42" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0F685E7C-40B7-47FA-9A16-CA310A8F9132</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

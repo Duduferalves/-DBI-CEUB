@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="70B8CE55-F72A-27C7-0051-0A4E3E13EC97" name="TelefonesCliente">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-05-08 23:49:51 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="D253B553-0CD7-15EC-DA4F-DBF436E52B42" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>TelefonesCliente</shortName>
+<synonym>TelefonesCliente</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfCliente" id="14E05053-287C-0AC5-F9E6-21A7D975EE50">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-05-08 23:49:51 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<importedID>902BCD01-C009-E53E-386A-EEB3A9D89121</importedID>
+<engineerTo>
+<item key="D253B553-0CD7-15EC-DA4F-DBF436E52B42" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefoneCliente" id="BC73B812-D8CA-B07A-AA36-EBD67539B7BB">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-05-08 23:49:51 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<importedID>8754DDDB-4485-AE83-C1D6-8CF1A4D77584</importedID>
+<engineerTo>
+<item key="D253B553-0CD7-15EC-DA4F-DBF436E52B42" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipoTelefoneCliente" id="9C4C5169-9304-D800-FC1C-5443887F4745">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-05-08 23:49:51 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<importedID>78C5AA13-1D7F-B501-E8CF-1F0FA69DCCB7</importedID>
+<engineerTo>
+<item key="D253B553-0CD7-15EC-DA4F-DBF436E52B42" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfCliente1" id="D38224B1-0206-892A-79FB-F2BC2E4B1CFD">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-05-08 23:49:51 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<generatorID>34DB274A-5160-FA63-D157-30DB05B84BF3</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<importedID>B36A3A83-C7E3-B4F9-0D95-126D4C86904E</importedID>
+<engineerTo>
+<item key="D253B553-0CD7-15EC-DA4F-DBF436E52B42" value="true"/>
+</engineerTo>
+<referedAttribute>F2AAB01F-2A00-BBAC-B59B-553A73ADA0DC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="746A398B-7250-EDAF-D038-26BCC8537672" name="TelefonesCliente PK">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-05-08 23:49:51 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="D253B553-0CD7-15EC-DA4F-DBF436E52B42" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BC73B812-D8CA-B07A-AA36-EBD67539B7BB</attributeRef>
+<attributeRef>14E05053-287C-0AC5-F9E6-21A7D975EE50</attributeRef>
+<attributeRef>D38224B1-0206-892A-79FB-F2BC2E4B1CFD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

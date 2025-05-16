@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2EA3057E-6438-B2BC-F369-F10163B867ED" name="Endereço">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-05-08 23:49:51 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="D253B553-0CD7-15EC-DA4F-DBF436E52B42" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Endereço</shortName>
+<synonym>Endereço</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfPessoa" id="F05C434D-2810-D39E-EF2F-591C4CEB99A1">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-05-08 23:49:51 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<importedID>2CFCC255-A9EC-B7F0-5AC0-EA46A9693DD8</importedID>
+<engineerTo>
+<item key="D253B553-0CD7-15EC-DA4F-DBF436E52B42" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="logradouroEndereco" id="A021BD3D-41D1-464E-D50C-882A9AEDC500">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-05-08 23:49:51 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<importedID>901F54E3-331B-5553-3B72-5B4DF362DB2B</importedID>
+<engineerTo>
+<item key="D253B553-0CD7-15EC-DA4F-DBF436E52B42" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nroEndereco" id="84DCB781-9FE1-2D4B-64A0-5E0E7B1ABFB9">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-05-08 23:49:51 UTC</createdTime>
+<comment><![CDATA[Endereço completo da pessoa, sendo:
+Logradouro: Nome da rua ou avenida; 
+Número: Número da casa ou prédio;
+Complemento: Informações adicionais que ajudam a identificar a unidade residencial ou comercial; 
+Bairro: Região do bairro onde se encontra o endereço; 
+Localidade: Nome da cidade, município ou região; 
+Estado: Sigla do estado onde se encontra o endereço. ]]></comment>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<importedID>7A5BA481-D71E-2B34-0A39-F47242933BEB</importedID>
+<engineerTo>
+<item key="D253B553-0CD7-15EC-DA4F-DBF436E52B42" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="complementoEndereco" id="01A9D4CA-AB1B-E380-EBC7-060F3991BD10">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-05-08 23:49:51 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<importedID>315671B9-F838-F9CC-DF1E-D7032FAD92E1</importedID>
+<engineerTo>
+<item key="D253B553-0CD7-15EC-DA4F-DBF436E52B42" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cidadeEndereco" id="14425F84-3AD7-A823-7C70-54465242E01D">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-05-08 23:49:51 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<importedID>E14D7EE1-A97F-BDD4-BE7D-013843F60483</importedID>
+<engineerTo>
+<item key="D253B553-0CD7-15EC-DA4F-DBF436E52B42" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ufEndereco" id="23B22B2A-0C23-9CEB-EEF3-EF4C841EDCC6">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-05-08 23:49:51 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<importedID>1CA85CF1-67CE-EE5E-E3FF-26CEFC6AF9E5</importedID>
+<engineerTo>
+<item key="D253B553-0CD7-15EC-DA4F-DBF436E52B42" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cepEndereco" id="3389F963-DCB5-5D46-87E1-7551D9154F37">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-05-08 23:49:51 UTC</createdTime>
+<comment><![CDATA[CEP: Código de Endereçamento Postal, composto por oito números que identificam a região, o setor, o município, e outras informações importantes para a entrega.]]></comment>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<importedID>2D925FA3-D04D-B706-8FD3-D0E05BC92DA6</importedID>
+<engineerTo>
+<item key="D253B553-0CD7-15EC-DA4F-DBF436E52B42" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular" id="C9FFF214-BBBD-DBAE-77BF-31B8F42A0AAE">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-05-16 00:38:03 UTC</createdTime>
+<generatorID>AC57B484-1F4C-0082-DDDC-5D5EA2A62708</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="D253B553-0CD7-15EC-DA4F-DBF436E52B42" value="true"/>
+</engineerTo>
+<referedAttribute>3C165710-E4BB-75E4-7220-962360EE96A1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8906363A-48EE-4A2A-20DB-AE0E11C5BE7E" name="EndereçoCliente PK">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-05-08 23:49:51 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="D253B553-0CD7-15EC-DA4F-DBF436E52B42" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F05C434D-2810-D39E-EF2F-591C4CEB99A1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

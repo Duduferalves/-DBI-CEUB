@@ -1,0 +1,196 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BC059247-BF58-C8B9-4F89-B983FF97B81E" name="ItensPedido">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-05-09 00:41:22 UTC</createdTime>
+<generatorID>B360665D-250F-72F1-5978-5750CBBCEBC8</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="numeroPedido" id="83A48625-9326-6289-7E77-99742BBB4588">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-05-09 00:41:22 UTC</createdTime>
+<comment><![CDATA[Número do pedido da compras.]]></comment>
+<generatorID>E64900F1-3ECD-1E64-21AE-EC2702A416F7</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codigoProduto" id="04B3C2EC-5D8F-EFD5-2A28-0D6B4823F4F0">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-05-09 00:41:22 UTC</createdTime>
+<comment><![CDATA[Código de um item de  produto que o cliente comprou.]]></comment>
+<generatorID>4D341660-B6F1-5D3D-15FE-694AEC24A413</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomeProduto" id="C370AEA3-CB55-A739-D10D-067045397B20">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-05-09 00:41:22 UTC</createdTime>
+<comment><![CDATA[Nome de um item de  produto que o cliente comprou.]]></comment>
+<generatorID>9068C462-C65C-F3A0-20E7-BCE688A55186</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120 CHAR</dataTypeSize>
+<ownDataTypeParameters>120 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precoUnitarioProduto" id="40AE9C7B-EC6A-D70F-BE5C-3C8320CFE49C">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-05-09 00:41:22 UTC</createdTime>
+<comment><![CDATA[Preço unitário de um item de  produto que o cliente comprou.]]></comment>
+<generatorID>CD03D427-4DAB-3C07-4291-D94DAF06E928</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantidadeProduto" id="C5FE1B9E-68D6-A71E-111D-5819DBF74D86">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-05-09 00:41:22 UTC</createdTime>
+<comment><![CDATA[Quantidade de um item de  produto que o cliente comprou.]]></comment>
+<generatorID>D36501BA-9CC5-4A5F-B8E5-FB0B35FC916F</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pedidos_numeroPedido" id="FF58BE3D-0A98-3A89-6986-25F5A0D04DE8">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-05-09 00:41:22 UTC</createdTime>
+<comment><![CDATA[Número do pedido da compras.]]></comment>
+<generatorID>90B2AF6D-05D8-B925-D2CB-47BB13E3F9A3</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="71ED73E1-29AF-A0CA-E374-2E4F47DB937C" referredColumn="2DB6917E-E3BE-344E-BD7A-670352099D88"/>
+</associations>
+</Column>
+<Column name="Pedidos_cpfCliente" id="56B1976F-C4AC-B734-F5CA-50AD9D220D05">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-05-09 00:41:22 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<generatorID>D63AD6CE-E94D-9F7E-85D5-DE075191C056</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="71ED73E1-29AF-A0CA-E374-2E4F47DB937C" referredColumn="2841FDD3-4CD2-94EF-0EB7-DBE7C4F1C434"/>
+</associations>
+</Column>
+<Column name="Pedidos_matriculaVendedor" id="2DCF67FE-C55B-EF33-E93F-01D26D4A115E">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-05-09 00:41:22 UTC</createdTime>
+<generatorID>1592051F-C80D-C876-6727-DFD0CF60F7CC</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="71ED73E1-29AF-A0CA-E374-2E4F47DB937C" referredColumn="03AA5DC1-FA2F-37C1-C1B8-F205CEC7C615"/>
+</associations>
+</Column>
+<Column name="Pedidos_matriculaVendedor_1" id="B82189C6-ECE5-9EEF-59F2-F76A83707A81">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-05-09 00:41:22 UTC</createdTime>
+<generatorID>C4036958-06DD-3C37-01F2-4A200A792E6D</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="71ED73E1-29AF-A0CA-E374-2E4F47DB937C" referredColumn="47964887-F242-5BD6-E814-4C23E643E8E6"/>
+</associations>
+</Column>
+<Column name="adicionarItem" id="4C870F5B-238F-B3F1-D32B-7347A2776F06">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-05-09 00:41:22 UTC</createdTime>
+<generatorID>8958AE5C-96F0-E39E-E8D6-F17663D3FB4D</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="removerItem" id="6345ED3D-1F00-25A4-6B9F-74BD86D01C86">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-05-09 00:41:22 UTC</createdTime>
+<generatorID>709A48DA-4FBB-803C-1691-4BD9EE5586EF</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="123CAE5E-94E6-7966-4C91-E2054812466A" name="ItensPedido_PK">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-05-09 00:41:22 UTC</createdTime>
+<generatorID>B84D24FC-B5EC-DCFD-AD6E-609CDB51177E</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83A48625-9326-6289-7E77-99742BBB4588"/>
+<colUsage columnID="04B3C2EC-5D8F-EFD5-2A28-0D6B4823F4F0"/>
+<colUsage columnID="FF58BE3D-0A98-3A89-6986-25F5A0D04DE8"/>
+<colUsage columnID="56B1976F-C4AC-B734-F5CA-50AD9D220D05"/>
+<colUsage columnID="2DCF67FE-C55B-EF33-E93F-01D26D4A115E"/>
+<colUsage columnID="B82189C6-ECE5-9EEF-59F2-F76A83707A81"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D01BD394-44E2-3AFF-7002-DF3FE6EDCF5E" name="ItensPedido_Pedidos_FK">
+<createdBy>eduardo.feralves</createdBy>
+<createdTime>2025-05-09 00:41:22 UTC</createdTime>
+<generatorID>2BE3E5A4-20D8-2F29-5C26-B5A0A7FF9898</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF58BE3D-0A98-3A89-6986-25F5A0D04DE8"/>
+<colUsage columnID="56B1976F-C4AC-B734-F5CA-50AD9D220D05"/>
+<colUsage columnID="2DCF67FE-C55B-EF33-E93F-01D26D4A115E"/>
+<colUsage columnID="B82189C6-ECE5-9EEF-59F2-F76A83707A81"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
